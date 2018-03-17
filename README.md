@@ -1,4 +1,4 @@
-# Tutorial about how to install Linux distro (LD) dual boot on Dell XPS 9560
+# Tutorial about how to install Linux distro (LD) alongside Windows with dual boot on Dell XPS 9560
 
 ## 1. Configure first BIOS/UEFI options
 

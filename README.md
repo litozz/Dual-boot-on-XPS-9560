@@ -1,8 +1,8 @@
 # Tutorial about how to install Linux distro (LD) alongside Windows with dual boot on Dell XPS 9560
 
-## 1. Configure first BIOS/UEFI options
+## 1. First, configure BIOS/UEFI options
 
-First of all, enter de BIOS/UEFI setup. Set boot mode to UEFI and disable secure boot. Test if you can start windows, if yes, you can continue.
+First of all, enter to the BIOS/UEFI setup. Set boot mode to UEFI and disable secure boot. Test if you can start windows, if yes, you can continue.
 
 ## 2. Allowing Windows to boot on AHCI mode
 

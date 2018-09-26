@@ -7,7 +7,7 @@ First of all, enter to the BIOS/UEFI setup. Set boot mode to UEFI and disable se
 ## 2. Allowing Windows to boot on AHCI mode
 
 
-**By default**, Windows boots in Raid On mode and my LD (Ubuntu) boots on AHCI mode. For my case, Ubuntu is more important, so, I will configurate Windows to set it to boot on AHCI mode (you can skip this step if you don't mind reconfigurate BIOS each time you start windows, but it sucks, I recommend it).
+**By default**, Windows boots in Raid On mode and my LD (Ubuntu) boots on AHCI mode. For my case, Ubuntu is more important, so, I will configure Windows to set it to boot on AHCI mode (you can skip this step if you don't mind reconfigure BIOS each time you start windows, but it sucks, I recommend it).
 
 - If you are logged in windows (currently SATA Raid On mode), open a `cmd` **as administrator** and type `bcdedit /set {current} safeboot minimal`. This allow you starts Windows by default on secure mode, even in SATA AHCI mode. Reboot on windows and, if Windows starts on SATA AHCI mode, you are in business.
 
